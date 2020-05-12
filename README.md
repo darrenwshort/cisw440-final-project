@@ -40,6 +40,7 @@ Professor Sung
 * Screenshot of the validation of your XML against DTD Elements or XML Schema XSD: 5%
 * PDF output file: 10%
 
+(rubric)
 ![image](/images/rubric.png)
 
 ## Deliverables:
