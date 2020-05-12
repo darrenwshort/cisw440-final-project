@@ -2,7 +2,7 @@
 
 CISW 440 XML Final Project
 CRC Spring 2020
-Professor Sung
+Professor Song
 
 
 # Requirements:
