@@ -72,8 +72,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Memphis" state="TN">The Time Capsule Lounge</Venue>
+    <BandName>The Boom Booms</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -90,9 +90,9 @@
     </Date>
     <TicketPrice>150.00</TicketPrice>
     <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <BandName>Sepultura</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="Dallas" state="TX">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -107,9 +107,9 @@
     </Date>
     <TicketPrice>150.00</TicketPrice>
     <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <BandName>AC/DC</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="San Jose" state="CA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -123,8 +123,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Vacaville" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Disturbed</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -140,8 +140,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="San Diego" state="CA">The Rosey Peach</Venue>
+    <BandName>Mudvayne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -157,8 +157,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Napa" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Red Hot Chili Peppers</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -175,9 +175,9 @@
     </Date>
     <TicketPrice>150.00</TicketPrice>
     <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <BandName>Limp Bizkit</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="Seatlle" state="WA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -191,8 +191,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Portland" state="OR">The Time Capsule Lounge</Venue>
+    <BandName>Mudvayne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -209,9 +209,9 @@
     </Date>
     <TicketPrice>150.00</TicketPrice>
     <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <BandName>Ozzy Osbourne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="Las Vegas" state="NV">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -226,9 +226,9 @@
     </Date>
     <TicketPrice>150.00</TicketPrice>
     <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <BandName>Glady's Knight & The Pips</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="Reno" state="NV">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -242,8 +242,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Oakland" state="CA">Oracle Arena</Venue>
+    <BandName>Guns 'N Roses</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -259,10 +259,10 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="San Francisco" state="CA">Outside Lands Festival</Venue>
+    <BandName>Metallica</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="San Francisco" state="CA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -276,8 +276,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="New York" state="NY">Johnny's Lounge</Venue>
+    <BandName>Raphael Saadiq</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -293,8 +293,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Sacramento" state="CA">Hard Rock Casino Sacramento</Venue>
+    <BandName>Slipknot</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -310,8 +310,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Denver" state="CO">The Time Capsule Lounge</Venue>
+    <BandName>Staind</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
@@ -327,10 +327,10 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Las Vegas" state="NV">MGM</Venue>
+    <BandName>Tom Jones</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandOrigin city="London" state="England">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
     <BandYearsActive>21</BandYearsActive>
 	</Event>
@@ -344,8 +344,8 @@
       <EndTime ampm="PM">11:42</EndTime>
     </Date>
     <TicketPrice>150.00</TicketPrice>
-    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
-    <BandName>Mastodon</BandName>
+    <Venue city="Petaluma" state="CA">Joel's Bar & Grill</Venue>
+    <BandName>The Boo Boo Kitties</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
     <BandGenre subGenre="Doom">Rock</BandGenre>
