@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="final-project-concert-series.xsl" ?>
+
+<!-- ========================================== -->
+<!-- Final Project:  Concert Series							-->
+<!-- Course:         CISW 440 Spr 2020          -->
+<!-- Author:         Darren Short               -->
+<!-- SID:            w1765868                   -->
+<!-- ========================================== -->
+
+
+<!-- Concert Series 2020-->
+<ConcertSeries>
+	<Event id="1">
+		<EventName>Eddie Takes Vacaville!</EventName>
+    <EventDate>
+      <Month>June</Month>
+      <Day>4</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:00</StartTime>
+      <EndTime ampm="PM">11:30</EndTime>
+    </EventDate>
+    <TicketPrice>99.00</TicketPrice>
+    <Venue city="London" state="England">Roger's Rock N Roll Shack</Venue>
+    <BandName>Iron Maiden</BandName>
+    <BandNoOfMembers>6</BandNoOfMembers>
+    <BandOrigin city="East London">England</BandOrigin>
+    <BandGenre subGenre="Heavy">Metal</BandGenre>
+    <BandYearsActive>40</BandYearsActive>
+	</Event>
+	<Event id="2">
+  <EventName>The Creek's Summer Series with The Eagles</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>11</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">7:30</StartTime>
+      <EndTime ampm="PM">11:30</EndTime>
+    </Date>
+    <TicketPrice>225.00</TicketPrice>
+    <Venue city="Sacramento" state="CA">The Agenda</Venue>
+    <BandName>The Eagles</BandName>
+    <BandNoOfMembers>7</BandNoOfMembers>
+    <BandOrigin city="Los Angeles" state="CA">United States</BandOrigin>
+    <BandGenre subGenre="Classic">Rock</BandGenre>
+    <BandYearsActive>43</BandYearsActive>
+	</Event>
+	<Event id="3">
+  <EventName>The Bone presents "Mastodon on The Bay"</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="4">
+  <EventName>Rock The Night Away with The Boom Booms</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="5">
+  <EventName>Sepultura World Tour</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="6">
+  <EventName>The Fast Lane with AC/DC</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="7">
+  <EventName>The Creek @ Vacaville presents Disturbed</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="8">
+  <EventName>Get muddy with Mudvayne</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="9">
+  <EventName>The Final Tour with The Red Hot Chili Peppers</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="10">
+  <EventName>Crank It with Limp Bizkit</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="11">
+  <EventName>The Showdown - Mudvayne</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="12">
+  <EventName>Darkness Falls Tour with Ozzy Osbourne</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="13">
+  <EventName>Dance The Night Away - Gladys Knight & The Pips</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="14">
+  <EventName>Shoot 'em Dead Tour with Guns 'N Roses</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="15">
+  <EventName>Black Album Tour - Metallica</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="16">
+  <EventName>Get yo groove on! With Raphael Saadiq</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="17">
+  <EventName>Summer Slaughter! with Slipknot</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="18">
+  <EventName>Unplugged with Staind</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="19">
+  <EventName>I'm Back! Tour with Tom Jones</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+  <Event id="20">
+  <EventName>The Cool Sounds of The Boo Boo Kitties</EventName>
+    <Date>
+      <Month>June</Month>
+      <Day>21</Day>
+      <Year>2020</Year>
+      <StartTime ampm="PM">8:30</StartTime>
+      <EndTime ampm="PM">11:42</EndTime>
+    </Date>
+    <TicketPrice>150.00</TicketPrice>
+    <Venue city="San Francisco" state="CA">The Time Capsule Lounge</Venue>
+    <BandName>Mastodon</BandName>
+    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandOrigin city="Atlanta" state="GA">United States</BandOrigin>
+    <BandGenre subGenre="Doom">Rock</BandGenre>
+    <BandYearsActive>21</BandYearsActive>
+	</Event>
+</ConcertSeries>
