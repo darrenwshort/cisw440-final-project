@@ -1,7 +1,7 @@
 # cisw440-final-project
 CISW 440 XML Final Project
 
-##Requirements:
+## Requirements:
 
 1. You need to create an XML solution for an industry of your choice. The lab assignments were based on the health care industry using health record data elements. You are now in control of your own destiny. You must have at least 6 data elements such as ID, name, date of birth, gender, service date, procedure code, and primary diagnosis. You cannot use the data or data elements from the lab assignments. Use at least one attribute in your XML. My recommendation is to use the attribute as an identifier to your record. For example the attribute is either a patientID, inventoryID, recordID, memberID, or something similar. Reach out to me if you have any questions. 
 
@@ -13,7 +13,7 @@ CISW 440 XML Final Project
 
 1. Last section to your output is to include a paragraph on what you learned and how you will use your knowledge.
 
-###Note:  Your rendered HTML should contain the following sections:
+### Note:  Your rendered HTML should contain the following sections:
 
 1. The first portion of your output must be in paragraph form where you describe why you chose the particular industry, how can XML help with displaying information, and you will need to use XPath to obtain data from your XML file without hard coding the values in your HTML.
 
@@ -33,6 +33,6 @@ XML StyleSheet, DTD ELEMENT & DTD ENTITY, XML Schema Files: 40%
 Screenshot of the validation of your XML against DTD Elements or XML Schema XSD: 5%
 PDF output file: 10%
 
-##Deliverables:
+## Deliverables:
 1. XML file, XML StyleSheet, DTD, XML Schema, and PDF version of your HTML output.
 2. Screenshot of the validation of your XML against the DTD Elements or XML Schema XSD.
