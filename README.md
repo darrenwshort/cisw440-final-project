@@ -40,6 +40,8 @@ Professor Sung
 * Screenshot of the validation of your XML against DTD Elements or XML Schema XSD: 5%
 * PDF output file: 10%
 
+![image](/images/rubric.png)
+
 ## Deliverables:
 1. XML file, XML StyleSheet, DTD, XML Schema, and PDF version of your HTML output.
 2. Screenshot of the validation of your XML against the DTD Elements or XML Schema XSD.
