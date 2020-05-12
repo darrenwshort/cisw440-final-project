@@ -15,11 +15,11 @@ Professor Sung
 
 1. The third portion to the assignment is to display your XML data as a table with border and unsorted. Then display your XML data as a table with border and sorted on your column of choice but you must include a paragraph below the table with your explanation of the XPath function and why you choose to sort the particular column.
 
-### Example HTML Table Output
-![image](/images/ex-output.png)
+    ### Example HTML Table Output
+    ![image](/images/ex-output.png)
 
 
-5. Last section to your output is to include a paragraph on what you learned and how you will use your knowledge.
+1. Last section to your output is to include a paragraph on what you learned and how you will use your knowledge.
 
 ## Note:  Your rendered HTML should contain the following sections:
 * The first portion of your output must be in paragraph form where you describe why you chose the particular industry, how can XML help with displaying information, and you will need to use XPath to obtain data from your XML file without hard coding the values in your HTML.
