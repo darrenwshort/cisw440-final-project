@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="ConcertSeres">
+    <xs:complexType>
+      <!-- define sequence of Event Objects -->
+      <xs:sequence>
+        <xs:element name="Event" maxOccurs="20">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventName" type="xs:string" />
+              <xs:element name="EventDate">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="EventName">
+                      <xs:complexType>
+                      <xs:element name="Month" type="xs:string" />
+                      <xs:element name="Day" type="xs:positiveInteger" />
+                      <xs:element name="StartTime" type="xs:string" />
+                      <xs:element name="EndTime" type="xs:string" />
+                    </xs:element>
+                  </xs:all>
+              </xs:element> <!-- EventDate -->    
+                </xs:complexType>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element> <!-- Event -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
