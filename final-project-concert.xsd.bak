@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="ConcertSeries">
+    <xs:complexType>
+
+        <xs:element name="Event" maxOccurs="20">
+          <xs:complexType>
+
+              <!-- EventName -->
+              <xs:element name="EventName" type="xs:string" />
+
+              <!-- EventDate -->
+              <xs:element name="EventDate">
+                <xs:complexType>
+                  <xs:all>
+
+                    <xs:element name="Month" type="xs:string" />
+                    <xs:element name="Day" type="xs:positiveInteger" />
+                    <xs:element name="Year" type="xs:positiveInteger" />
+
+                    <xs:element name="StartTime">
+                      <xs:complexType>
+                          <xs:attribute name="ampm" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name="EndTime">
+                      <xs:complexType>
+                          <xs:attribute name="ampm" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>   
+              <!-- END EventDate -->
+            
+              <xs:element name="TicketPrice" type="xs:string" />
+              <xs:element name="Venue" type="xs:string" />
+              <xs:element name="BandName" type="xs:string" />
+              <xs:element name="BandNoOfMembers" type="xs:positiveInteger" />
+              <xs:element name="BandOrigin" type="xs:string" />
+              <xs:element name="Venue" type="xs:string" />
+
+              <!-- attribute definitions for Event -->
+              <xs:attribute name="id" type="xs:positiveInteger" />
+              <xs:attribute name="city" type="xs:string" />
+              <xs:attribute name="state" type="xs:string" />
+              <xs:attribute name="subGenre" type="xs:string" />
+              <!-- END attribute -->
+          </xs:complexType>
+        </xs:element> 
+        <!-- END Event -->
+
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

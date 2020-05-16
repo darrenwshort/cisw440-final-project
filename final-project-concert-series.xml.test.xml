@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="final-project-concert-series.xsl" ?> 
+
+<!-- ========================================== -->
+<!-- Final Project:  Concert Series						 -->
+<!-- Course:         CISW 440 Spr 2020          -->
+<!-- Author:         Darren Short               -->
+<!-- SID:            w1765868                   -->
+<!-- ========================================== -->
+
+<!-- Concert Series 2020 -->
+<ConcertSeries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="final-project-concert-series.xsd">
+  <Event id="1">
+    <EventName>Eddie Takes Vacaville!</EventName>
+    <EventDate>
+      <Month>June</Month>
+      <Day>4</Day>
+      <Year>2020</Year>
+      <StartTime>20:00</StartTime>
+      <EndTime>23:30</EndTime>
+    </EventDate>
+    <TicketPrice>99.00</TicketPrice>
+    <Venue>Roger's Rock N Roll Shack</Venue>
+    <BandName>Iron Maiden</BandName>
+    <BandNoOfMembers>6</BandNoOfMembers>
+    <BandOrigin>England</BandOrigin>
+    <BandGenre>Metal</BandGenre>
+    <BandYearsActive>40</BandYearsActive>
+  </Event>
+  <Event id="2">
+    <EventName>The Creek's Summer Series with The Eagles</EventName>
+    <EventDate>
+      <Month>June</Month>
+      <Day>11</Day>
+      <Year>2020</Year>
+      <StartTime>19:30</StartTime>
+      <EndTime>23:30</EndTime>
+    </EventDate>
+    <TicketPrice>225.00</TicketPrice>
+    <Venue>The Agenda</Venue>
+    <BandName>The Eagles</BandName>
+    <BandNoOfMembers>7</BandNoOfMembers>
+    <BandOrigin>United States</BandOrigin>
+    <BandGenre>Rock</BandGenre>
+    <BandYearsActive>43</BandYearsActive>
+  </Event>
+</ConcertSeries>
