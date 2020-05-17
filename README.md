@@ -4,8 +4,11 @@ CISW 440 XML Final Project
 CRC Spring 2020
 Professor Song
 
-# Source Code:
+# Rendered Site:
 <https://darrenwshort.github.io/cisw440-final-project/final-project-concert-series.xml>
+
+# Source:
+<https://github.com/darrenwshort/cisw440-final-project>
 
 # Requirements:
 
