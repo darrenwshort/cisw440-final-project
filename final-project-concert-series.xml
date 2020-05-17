@@ -2,8 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="final-project-concert-series.xsl" ?>
 
 <!-- ========================================== -->
-<!-- Final Project:  Concert Series						 -->
-<!-- Course:         CISW 440 Spr 2020          -->
+<!-- Final Project:  Concert Series						  -->
+<!-- Course:         CISW 440, Spr 2020         -->
+<!-- Professor:      Professor Song             -->
 <!-- Author:         Darren Short               -->
 <!-- SID:            w1765868                   -->
 <!-- ========================================== -->
@@ -11,6 +12,13 @@
 <!-- Concert Series 2020 -->
 <ConcertSeries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="final-project-concert-series.xsd">
+  <Note1>
+    I chose the Entertainment Industry for my final project because I wanted something fun to create.  As COVID-19 keeps
+    us all confined to our homes these days, and with my passion for live music events, I thought creating a
+    faux Summer Concert Series could be therapeutic.   I think using XML as a dataset can be quite useful.  Since XML has
+    surrounding technologies like, XSLT and XML Schemas, parsing XML with these tools provides a solid structure in
+    extracting data for either rendering or conversion to another file format.
+  </Note1>
   <Event id="1">
     <EventName>Eddie Takes Vacaville!</EventName>
     <EventDate>

@@ -1,13 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
-    margin: 20px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  background-image: url('./images/venue-black-n-white.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+div#main {
+  display: flex;
+  justify-content: center;
+
+}
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+  width: auto;
 }
 
-th,
-td {
-    border: 1px solid black;
-    padding: 8px;
+th, td {
+  color: black;
+  border: 1px solid black;
+  padding: 4px;
+  text-align: center;
+}
+
+th {
+  color: white;
+}
+
+.even {
+  background-color: #80CBF0;
+}
+
+.odd {
+  background-color: #E7EAEC;
+}
+
+div#wrapper {
+  width: 98vw;
+  margin: auto;
+}
+
+div#heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 98vw;
+  height: 150px;
+  /* border: 2px solid white; */
+}
+
+div#top {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  width: 98vw;
+  margin: auto;
+  border: 2px solid yellow;
+}
+
+p#head {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  /* border: 2px solid pink; */
+  height: 50px;
+  margin: auto;
+}
+
+p#note1 {
+  font-size: 18pt;
+  padding: 20px;
+}
+
+p#chosen-record {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+div#fav-band {
+  margin-bottom: 50px;
 }
