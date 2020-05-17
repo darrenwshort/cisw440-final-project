@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,12 +17,26 @@ body {
 
 div#main {
   display: flex;
+  flex-flow: column;
   justify-content: center;
+  align-items: center;
 
 }
+
 table {
   border-collapse: collapse;
-  width: auto;
+}
+
+div#unsorted-table {
+  width: 80%;
+  margin: 50px 0 0 0;
+  font-size: 14px;
+}
+
+div#sorted-table {
+  width: 80%;
+  margin: 50px 0 40px 0;
+  font-size: 14px;
 }
 
 th, td {
@@ -67,9 +81,11 @@ div#top {
   align-items: center;
   align-content: center;
   align-self: center;
-  width: 98vw;
+  width: 92vw;
   margin: auto;
-  border: 2px solid yellow;
+  padding: 0px 15px 0px 15px;
+  border: 2px solid beige;
+  border-radius: 10px;
 }
 
 p#head {
@@ -82,15 +98,26 @@ p#head {
 }
 
 p#note1 {
-  font-size: 18pt;
+  font-size: 20px;
   padding: 20px;
 }
 
 p#chosen-record {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
 }
 
 div#fav-band {
   margin-bottom: 50px;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.font-26px {
+  font-size: 26px;
 }
