@@ -14,9 +14,14 @@
           <!-- display table header row -->
           <tr bgcolor="gray">
             <th>Event Name</th>
+            <th>Event Date</th>
+            <th>Venue</th>
             <th>Ticket Price</th>
             <th>Band Name</th>
+            <th>Band Origin</th>
+            <th># Of Band Members</th>
             <th>Genre</th>
+            <th>Years Active</th>
           </tr>
 
           <xsl:for-each select="ConcertSeries/Event">
@@ -34,15 +39,29 @@
               <td>
                 <xsl:value-of select="EventName"/>
               </td>
-
-              <!-- &#xA0; = space -->
-              <td>$<xsl:value-of select="TicketPrice"/>&#xA0; <xsl:value-of
-                  select="TicketPrice/@currency"/></td>
+              <td>
+                <xsl:value-of select="EventDate"/>
+              </td>
+              <td>
+                <xsl:value-of select="Venue"/>
+              </td>
+              <td>
+                <xsl:value-of select="TicketPrice"/>
+              </td>
               <td>
                 <xsl:value-of select="BandName"/>
               </td>
               <td>
+                <xsl:value-of select="BandOrigin"/>
+              </td>
+              <td>
+                <xsl:value-of select="NoOfBandMembers" />
+              </td>
+              <td>
                 <xsl:value-of select="BandGenre"/>
+              </td>
+              <td>
+                <xsl:value-of select="BandYearsActive"/>
               </td>
             </tr>
 
