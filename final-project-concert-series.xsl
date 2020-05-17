@@ -19,11 +19,13 @@
       <body>
         <div id="wrapper">
           <div id="top">
-            <p id="note1"><xsl:value-of select="ConcertSeries/Note1"/></p>
+            <p id="note1">
+              <xsl:value-of select="ConcertSeries/Note1"/>
+            </p>
             <!-- single record selection requirement -->
             <p id="chosen-record">
               * The following record example was chosen, because it represents my favorite Rock-n-Roll band,
-                of all time - Iron Maiden.
+                of all time - <span class="italicize font-26px">Iron Maiden</span>.
             </p>
               <div id="fav-band">
 
@@ -78,70 +80,138 @@
           </div> <!-- div 'top' -->
 
           <div id="main">
-            <table>
-              <!-- display table header row -->
-              <tr bgcolor="gray">
-                <th>Event Name</th>
-                <th>Event Date</th>
-                <th>Venue</th>
-                <th>Ticket Price</th>
-                <th>Band Name</th>
-                <th>Band Origin</th>
-                <th>Genre</th>
-                <th>Years Active</th>
-              </tr>
-
-              <xsl:for-each select="ConcertSeries/Event">
-
-                <!-- set bgcolor of row - alternating for easier view of data -->
-                <!-- class names .... 'even' or 'odd' for alternating rows -->
-                <!-- #D3D3D3 = light gray-ish ; #A8DFF0 = light blue-ish -->
-                <xsl:variable name="className">
-                  <xsl:choose>
-                    <xsl:when test="position() mod 2 = 0">even</xsl:when>
-                    <xsl:otherwise>odd</xsl:otherwise>
-                  </xsl:choose>
-                </xsl:variable>
-
-                <tr class="{$className}">
-                  <td>
-                    <xsl:value-of select="./EventName"/>
-                  </td>
-                  <td>
-                    <xsl:value-of select="./EventDate/Month"/>
-                    &#160;
-                    <xsl:value-of select="./EventDate/Day"/>
-                    ,&#160;
-                    <xsl:value-of select="./EventDate/Year"/> <br />
-                    &#160;(Start Time:
-                    <xsl:value-of select="./EventDate/StartTime"/>
-                    / End Time:
-                    <xsl:value-of select="./EventDate/EndTime"/>)
-                  </td>
-                  <td>
-                    <xsl:value-of select="Venue"/>
-                  </td>
-                  <td>
-                    <xsl:value-of select="TicketPrice"/>
-                  </td>
-                  <td>
-                    <xsl:value-of select="BandName"/>
-                  </td>
-                  <td>
-                    <xsl:value-of select="BandOrigin"/>
-                  </td>
-                  
-                  <td>
-                    <xsl:value-of select="BandGenre"/>
-                  </td>
-                  <td>
-                    <xsl:value-of select="BandYearsActive"/>
-                  </td>
+            <div id="unsorted-table">
+              <table>
+                <!-- display table header row -->
+                <tr bgcolor="gray">
+                  <th>Event Name</th>
+                  <th>Event Date</th>
+                  <th>Venue</th>
+                  <th>Ticket Price</th>
+                  <th>Band Name</th>
+                  <th>Band Origin</th>
+                  <th>Genre</th>
+                  <th>Years Active</th>
                 </tr>
 
-              </xsl:for-each>
+                <xsl:for-each select="ConcertSeries/Event">
 
-            </table>
+                  <!-- set bgcolor of row - alternating for easier view of data -->
+                  <!-- class names .... 'even' or 'odd' for alternating rows -->
+                  <!-- #D3D3D3 = light gray-ish ; #A8DFF0 = light blue-ish -->
+                  <xsl:variable name="className">
+                    <xsl:choose>
+                      <xsl:when test="position() mod 2 = 0">even</xsl:when>
+                      <xsl:otherwise>odd</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
+
+                  <tr class="{$className}">
+                    <td>
+                      <xsl:value-of select="./EventName"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="./EventDate/Month"/>
+                      &#160;
+                      <xsl:value-of select="./EventDate/Day"/>
+                      ,&#160;
+                      <xsl:value-of select="./EventDate/Year"/> <br />
+                      &#160;(Start Time:
+                      <xsl:value-of select="./EventDate/StartTime"/>
+                      / End Time:
+                      <xsl:value-of select="./EventDate/EndTime"/>)
+                    </td>
+                    <td>
+                      <xsl:value-of select="Venue"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="TicketPrice"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandName"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandOrigin"/>
+                    </td>
+                    
+                    <td>
+                      <xsl:value-of select="BandGenre"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandYearsActive"/>
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+
+              </table>
+            </div>
+            <div id="sorted-table">
+              <table>
+                <!-- display table header row -->
+                <tr bgcolor="gray">
+                  <th>Event Name</th>
+                  <th>Event Date</th>
+                  <th>Venue</th>
+                  <th>Ticket Price</th>
+                  <th>Band Name</th>
+                  <th>Band Origin</th>
+                  <th>Genre</th>
+                  <th>Years Active</th>
+                </tr>
+
+                <xsl:for-each select="ConcertSeries/Event">
+                <xsl:sort select="BandYearsActive" order="descending"/>
+                  <!-- set bgcolor of row - alternating for easier view of data -->
+                  <!-- class names .... 'even' or 'odd' for alternating rows -->
+                  <!-- #D3D3D3 = light gray-ish ; #A8DFF0 = light blue-ish -->
+                  <xsl:variable name="className">
+                    <xsl:choose>
+                      <xsl:when test="position() mod 2 = 0">even</xsl:when>
+                      <xsl:otherwise>odd</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
+
+                  <tr class="{$className}">
+                    <td>
+                      <xsl:value-of select="./EventName"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="./EventDate/Month"/>
+                      &#160;
+                      <xsl:value-of select="./EventDate/Day"/>
+                      ,&#160;
+                      <xsl:value-of select="./EventDate/Year"/> <br />
+                      &#160;(Start Time:
+                      <xsl:value-of select="./EventDate/StartTime"/>
+                      / End Time:
+                      <xsl:value-of select="./EventDate/EndTime"/>)
+                    </td>
+                    <td>
+                      <xsl:value-of select="Venue"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="TicketPrice"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandName"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandOrigin"/>
+                    </td>
+                    
+                    <td>
+                      <xsl:value-of select="BandGenre"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="BandYearsActive"/>
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+
+              </table>
+            </div> <!-- sorted table -->
           </div> <!-- main -->
         </div> <!-- wrapper -->
       </body>
