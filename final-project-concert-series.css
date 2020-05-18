@@ -85,6 +85,7 @@ th.th-head-lrg {
 div#wrapper {
   width: 98vw;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 div#heading {
@@ -155,7 +156,7 @@ p#head {
 }
 
 p#note1 {
-  font-size: 20px;
+  font-size: 24px;
   padding: 20px;
 }
 

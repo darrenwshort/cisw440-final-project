@@ -15,14 +15,16 @@
   <Note1>
     I chose the Entertainment Industry for my final project because I wanted something fun to create.  As COVID-19 keeps
     us all confined to our homes these days, and with my passion for live music events, I thought creating a
-    faux Summer Concert Series could be therapeutic.   I think using XML as a dataset can be quite useful.  Since XML has
+    faux Summer Concert Series could be therapeutic :-).   I think using XML as a dataset can be quite useful.  Since XML has
     surrounding technologies like, XSLT and XML Schemas, parsing XML with these tools provides a solid structure in
-    extracting data for either rendering or conversion to another file format.
+    extracting data for either rendering or conversion to another file format.  This is in contrast to using a scripting language
+    like Javascript or Python to parse through XML as text.  Unless you are already familiar with the aforementioned scripting languages,
+    learning them could require a bit of a learning curve, particularly working with regular expressions.
   </Note1>
   <Event id="1">
     <EventName>Eddie Takes Vacaville!</EventName>
     <EventDate>
-      <Month>June</Month>
+      <Month>July</Month>
       <Day>4</Day>
       <Year>2020</Year>
       <StartTime>8:00</StartTime>
@@ -57,13 +59,13 @@
     <EventName>The Bone presents "Mastodon on The Bay"</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>26</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>9:00</StartTime>
+      <EndTime>11:50</EndTime>
     </EventDate>
     <TicketPrice>150.00</TicketPrice>
-    <Venue>The Time Capsule Lounge</Venue>
+    <Venue>The Rock'em Sock'em Lounge</Venue>
     <BandName>Mastodon</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
@@ -74,63 +76,63 @@
     <EventName>Rock The Night Away with The Boom Booms</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>5</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>9:45</StartTime>
+      <EndTime>11:00</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>33.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>The Boom Booms</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Country Rock</BandGenre>
     <BandYearsActive>2</BandYearsActive>
   </Event>
   <Event id="5">
     <EventName>Sepultura World Tour</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>August</Month>
+      <Day>3</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>62.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Sepultura</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Metal</BandGenre>
     <BandYearsActive>14</BandYearsActive>
   </Event>
   <Event id="6">
     <EventName>The Fast Lane with AC/DC</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>August</Month>
+      <Day>20</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>324.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>AC/DC</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Classic Rock</BandGenre>
     <BandYearsActive>50</BandYearsActive>
   </Event>
   <Event id="7">
     <EventName>The Creek @ Vacaville presents Disturbed</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>27</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>51.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Disturbed</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -141,13 +143,13 @@
   <Event id="8">
     <EventName>Get muddy with Mudvayne</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>1</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>19.99</TicketPrice>
     <Venue>The Rosey Peach</Venue>
     <BandName>Mudvayne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -159,29 +161,29 @@
     <EventName>The Final Tour with The Red Hot Chili Peppers</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>30</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>400.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Red Hot Chili Peppers</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Alternative Rock</BandGenre>
     <BandYearsActive>19</BandYearsActive>
   </Event>
   <Event id="10">
     <EventName>Crank It with Limp Bizkit</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>28</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>9.37</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Limp Bizkit</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -192,14 +194,14 @@
   <Event id="11">
     <EventName>The Showdown - Mudvayne</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>13</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <EndTime>10:00</EndTime>
     </EventDate>
     <TicketPrice>150.00</TicketPrice>
-    <Venue>The Time Capsule Lounge</Venue>
+    <Venue>The Bombatta</Venue>
     <BandName>Mudvayne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
@@ -209,13 +211,13 @@
   <Event id="12">
     <EventName>Darkness Falls Tour with Ozzy Osbourne</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>15</Day>
       <Year>2020</Year>
       <StartTime>8:30</StartTime>
       <EndTime>11:42</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>800.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Ozzy Osbourne</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -226,30 +228,30 @@
   <Event id="13">
     <EventName>Dance The Night Away - Gladys Knight &amp; The Pips</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>18</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>6:30</StartTime>
+      <EndTime>9:30</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>175.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Glady's Knight &amp; The Pips</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Classic Soul</BandGenre>
     <BandYearsActive>42</BandYearsActive>
   </Event>
   <Event id="14">
     <EventName>Shoot 'em Dead Tour with Guns 'N Roses</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>17</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>9:15</StartTime>
+      <EndTime>11:50</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>575.00</TicketPrice>
     <Venue>Oracle Arena</Venue>
     <BandName>Guns 'N Roses</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -260,64 +262,64 @@
   <Event id="15">
     <EventName>Black Album Tour - Metallica</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>August</Month>
+      <Day>17</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>1:00</StartTime>
+      <EndTime>11:00</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>300.00</TicketPrice>
     <Venue>Outside Lands Festival</Venue>
     <BandName>Metallica</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Metal</BandGenre>
     <BandYearsActive>34</BandYearsActive>
   </Event>
   <Event id="16">
     <EventName>Get yo groove on! With Raphael Saadiq</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>August</Month>
+      <Day>3</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>7:15</StartTime>
+      <EndTime>9:30</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>40.00</TicketPrice>
     <Venue>Johnny's Lounge</Venue>
     <BandName>Raphael Saadiq</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Neo Soul</BandGenre>
     <BandYearsActive>27</BandYearsActive>
   </Event>
   <Event id="17">
     <EventName>Summer Slaughter! with Slipknot</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>August</Month>
+      <Day>11</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>8:00</StartTime>
+      <EndTime>11:00</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>189.00</TicketPrice>
     <Venue>Hard Rock Casino Sacramento</Venue>
     <BandName>Slipknot</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Nu Metal</BandGenre>
     <BandYearsActive>23</BandYearsActive>
   </Event>
   <Event id="18">
     <EventName>Unplugged with Staind</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>28</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>4:00</StartTime>
+      <EndTime>7:00</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>25.00</TicketPrice>
     <Venue>The Time Capsule Lounge</Venue>
     <BandName>Staind</BandName>
     <BandNoOfMembers>4</BandNoOfMembers>
@@ -329,34 +331,34 @@
     <EventName>I'm Back! Tour with Tom Jones</EventName>
     <EventDate>
       <Month>June</Month>
-      <Day>21</Day>
+      <Day>22</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>7:00</StartTime>
+      <EndTime>10:30</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>1,150.00</TicketPrice>
     <Venue>MGM</Venue>
     <BandName>Tom Jones</BandName>
-    <BandNoOfMembers>4</BandNoOfMembers>
-    <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandNoOfMembers>1</BandNoOfMembers>
+    <BandOrigin>United Kingdom</BandOrigin>
+    <BandGenre>Pop</BandGenre>
     <BandYearsActive>21</BandYearsActive>
   </Event>
   <Event id="20">
     <EventName>The Cool Sounds of The Boo Boo Kitties</EventName>
     <EventDate>
-      <Month>June</Month>
-      <Day>21</Day>
+      <Month>July</Month>
+      <Day>22</Day>
       <Year>2020</Year>
-      <StartTime>8:30</StartTime>
-      <EndTime>11:42</EndTime>
+      <StartTime>2:00</StartTime>
+      <EndTime>6:00</EndTime>
     </EventDate>
-    <TicketPrice>150.00</TicketPrice>
+    <TicketPrice>60.00</TicketPrice>
     <Venue>Joel's Bar &amp; Grill</Venue>
     <BandName>The Boo Boo Kitties</BandName>
-    <BandNoOfMembers>4</BandNoOfMembers>
+    <BandNoOfMembers>17</BandNoOfMembers>
     <BandOrigin>United States</BandOrigin>
-    <BandGenre>Rock</BandGenre>
+    <BandGenre>Funkadelic</BandGenre>
     <BandYearsActive>21</BandYearsActive>
   </Event>
 </ConcertSeries>

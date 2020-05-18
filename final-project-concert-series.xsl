@@ -231,7 +231,7 @@
           </div> <!-- main -->
 
           <div id="summary-heading">
-            <p>What did I learn from the course, CISW 440?  And, what will I do next with this new-found knowledge?</p>
+            <p>What did I learn from the course, CISW 440?  And, what will I do next with this new found knowledge?</p>
           </div>
 
           <div id="summary">
