@@ -10,6 +10,7 @@
 body {
   background-image: url('./images/venue-black-n-white.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   background-color: gray;
   -webkit-print-color-adjust: exact;
